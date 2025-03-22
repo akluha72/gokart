@@ -1,0 +1,26 @@
+@use 'sass:color';
+@use '../variables' as *;
+
+.tracks-wrapper {
+    margin-top: 20px;
+    background-color: white;
+
+
+    .tracks-container {
+        margin: 10px;
+        padding: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+
+        .tracks-item {
+            background-color: blueviolet;
+            flex-basis: calc(50% - 5px);
+            box-sizing: border-box;
+        
+            h2 {
+                margin: 0;
+            }
+        }
+    }
+}

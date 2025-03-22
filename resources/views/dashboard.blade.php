@@ -1,8 +1,26 @@
 <x-app-layout>
     <div class="container">
-        <h1>GoKart Tracks</h1>
+        <h1>GoKart Tracks Location</h1>
         <div id="map"></div>
-    </div>
+
+        <div class="tracks-wrapper">
+            <h2>Tracks List</h2>
+
+            {{-- layout design --}}
+            {{-- https://www.canva.com/design/DAGie55b0M4/ElvoNXlOnjepiv7QfnYxKQ/edit?utm_content=DAGie55b0M4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton --}}
+            <div class="tracks-container">
+                <div class="tracks-item">
+                    <h2>Formula Karting </h2>
+                </div>
+                <div class="tracks-item">
+                    <h2>Pinnacle Gokart </h2>
+                </div>    <div class="tracks-item">
+                    <h2>LYL Gokart </h2>
+                </div>    <div class="tracks-item">
+                    <h2>Evolt Karting</h2>
+                </div>
+            </div>
+        </div>
 
     <script src="https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.js"></script>
     <script>

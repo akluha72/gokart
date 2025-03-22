@@ -17,10 +17,12 @@ body {
     background-color: black;
     margin: 0;
     padding: 0;
+
 }
 
 main {
     background-color: black;
+    margin: 2vw 6vw;
 }
 
 a {
@@ -30,4 +32,8 @@ a {
     &:hover {
         color: color.adjust($primary-color, $lightness: -10%);
     }
+}
+
+h1 {
+    color: white;
 }
