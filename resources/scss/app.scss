@@ -1,0 +1,7 @@
+// resources/scss/app.scss
+@use 'variables' as *;
+@use 'global';
+@use 'components/navbar';
+@use 'components/buttons';
+@use 'pages/home';
+@use 'pages/auth';

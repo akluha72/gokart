@@ -1,0 +1,29 @@
+// resources/scss/_global.scss
+@use 'variables' as *;
+@use 'sass:color';
+@use 'variables' as *;
+
+a {
+    color: $primary-color;
+    text-decoration: none;
+
+    &:hover {
+        color: color.adjust($primary-color, $lightness: -10%);
+    }
+}
+
+body {
+    font-family: $font-family;
+    background-color: #f8fafc;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: $primary-color;
+    text-decoration: none;
+
+    &:hover {
+        color: color.adjust($primary-color, $lightness: -10%);
+    }
+}
